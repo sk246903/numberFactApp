@@ -1,0 +1,20 @@
+<% include style/top.ejs %>
+<h1>Number Excites you,Right.</h1>
+<div id="navBar"></div>
+    <form action="/result" method="get">
+        <div id="searchBox">
+        <input type="text" placeholder="Enter a Number" name="numValue"><br>
+        </div>
+        <div id="buttons">
+        <input id="b1" type="radio" name="option" value="/" checked> Trivia<br>
+        <input id="b2" type="radio" name="option" value="/date"> Date<br>
+        <input id="b3" type="radio" name="option" value="/math"> Math<br>
+        </div>
+        <div id="button">
+        <input type="Submit">
+        </div>
+    </form>
+    <div id="note">
+    <h3>Are you ready for some facts ?</h3>
+    </div>
+<% include style/bottom.ejs %>
